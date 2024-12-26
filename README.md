@@ -10,9 +10,9 @@
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/KnowerLife/VPN/refs/heads/main/warp_generator.sh)
 ```
-4. После того, как конфиг сгенерируется, копируем его, либо скачиваем файлом по ссылке и импортируем в AmneziaWG или WireGuard!
+2. После того, как конфиг сгенерируется, копируем его, либо скачиваем файлом по ссылке и импортируем в AmneziaWG или WireGuard!
 
-5. Теперь нужно установить AmneziaWG или WireGuard и импортировать туда конфиг.​
+3. Теперь нужно установить AmneziaWG или WireGuard и импортировать туда конфиг.​
 
 ### На Windows: 
 https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi
