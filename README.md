@@ -8,7 +8,7 @@
 2. Выбираем **Debian**
 3. Вставляем команду:
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/KnowerLife/VPN/refs/heads/main/warp_generator.sh)
+bash <(wget --inet4-only -qO- https://raw.githubusercontent.com/KnowerLife/VPN/refs/heads/main/warp_generator.sh)
 ```
 2. После того, как конфиг сгенерируется, копируем его, либо скачиваем файлом по ссылке и импортируем в AmneziaWG или WireGuard!
 
