@@ -4,7 +4,7 @@ clear
 mkdir -p ~/.cloudshell && touch ~/.cloudshell/no-apt-get-warning # Для Google Cloud Shell, но лучше там не выполнять
 echo "Установка зависимостей..."
 apt update -y && apt install sudo -y # Для Aeza Terminator, там sudo не установлен по умолчанию
-sudo apt-get update -y --fix-missing && sudo apt-get install wireguard-tools jq wget -y --fix-missing # Update второй раз, если sudo установлен и обязателен (в строке выше не сработал)
+sudo apt-get update -y --fix-missing && sudo apt-get install wireguard-tools jq wget qrencode-y --fix-missing # Update второй раз, если sudo установлен и обязателен (в строке выше не сработал)
 
 priv="${1:-$(wg genkey)}"
 pub="${2:-$(echo "${priv}" | wg pubkey)}"
