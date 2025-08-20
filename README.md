@@ -277,7 +277,7 @@ Endpoint = engage.cloudflareclient.com:2408
 
 ## Поддержка и обратная связь
 
-Если у вас возникли вопросы или предложения, присоединяйтесь к [Telegram-чату](https://t.me/knowerlife) или создайте issue на [GitHub](https://github.com/KnowerLife/VPN/). Полная документация доступна в репозитории.
+Если у вас возникли вопросы или предложения, присоединяйтесь к [Telegram-чату](https://t.me/knowerlife_ru) или создайте issue на [GitHub](https://github.com/KnowerLife/VPN/). Полная документация доступна в репозитории.
 
 ## Дополнительные замечания
 
