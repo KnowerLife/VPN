@@ -59,7 +59,7 @@
 Установите клиент AmneziaWG или WireGuard в зависимости от вашей платформы:
 
 | Платформа | AmneziaWG | WireGuard | AmneziaVPN |
-|-----------|-----------|-----------|
+|-----------|-----------|-----------|-----------|
 | **Windows** | [Скачать](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi) | [Скачать](https://download.wireguard.com/windows-client/wireguard-installer.exe) | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_windows_x64.exe) |
 | **macOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12) | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_macos.zip) |
 | **iOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8) | [Скачать](https://apps.apple.com/us/app/amneziavpn/id1600529900) |
