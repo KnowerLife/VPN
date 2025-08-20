@@ -58,14 +58,14 @@
 
 Установите клиент AmneziaWG или WireGuard в зависимости от вашей платформы:
 
-| Платформа | AmneziaWG | WireGuard |
+| Платформа | AmneziaWG | WireGuard | AmneziaVPN |
 |-----------|-----------|-----------|
-| **Windows** | [Скачать](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi) | [Скачать](https://download.wireguard.com/windows-client/wireguard-installer.exe) |
-| **macOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12) |
-| **iOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8) |
-| **Android** | [Скачать](https://github.com/amnezia-vpn/amneziawg-android/releases/download/v1.1.1/AmneziaWG.apk) | [Скачать](https://play.google.com/store/apps/details?id=com.wireguard.android) |
-| **Linux** | [Скачать](https://github.com/amnezia-vpn/amneziawg-go) | Установить через пакетный менеджер, например: `sudo apt install wireguard` |
-| **OpenWRT** | [Скачать](https://github.com/amnezia-vpn/amneziawg-openwrt) | Следуйте [инструкции](https://www.wireguard.com/install/) |
+| **Windows** | [Скачать](https://github.com/amnezia-vpn/amneziawg-windows-client/releases/download/1.0.0/amneziawg-amd64-1.0.0.msi) | [Скачать](https://download.wireguard.com/windows-client/wireguard-installer.exe) | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_windows_x64.exe) |
+| **macOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12) | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_macos.zip) |
+| **iOS** | [Скачать](https://apps.apple.com/ru/app/amneziawg/id6478942365) | [Скачать](https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8) | [Скачать](https://apps.apple.com/us/app/amneziavpn/id1600529900) |
+| **Android** | [Скачать](https://github.com/amnezia-vpn/amneziawg-android/releases/download/v1.1.1/AmneziaWG.apk) | [Скачать](https://play.google.com/store/apps/details?id=com.wireguard.android) | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/tag/4.8.9.2) |
+| **Linux** | [Скачать](https://github.com/amnezia-vpn/amneziawg-go) | Установить через пакетный менеджер, например: `sudo apt install wireguard` | [Скачать](https://github.com/amnezia-vpn/amnezia-client/releases/download/4.8.9.2/AmneziaVPN_4.8.9.2_linux_x64.tar.zip) |
+| **OpenWRT** | [Скачать](https://github.com/amnezia-vpn/amneziawg-openwrt) | Следуйте [инструкции](https://www.wireguard.com/install/) | [Пока что нет инструкций] |
 
 ---
 
@@ -74,6 +74,10 @@
 1. Установите клиент для вашей платформы.
 2. Импортируйте сгенерированный конфиг:
    - **AmneziaWG**:
+     - Откройте приложение.
+     - Выберите «Импорт конфигурации» и укажите файл `WARP.conf` или вставьте текст конфига.
+     - Нажмите «Подключиться».
+     -  **AmneziaVPN**:
      - Откройте приложение.
      - Выберите «Импорт конфигурации» и укажите файл `WARP.conf` или вставьте текст конфига.
      - Нажмите «Подключиться».
